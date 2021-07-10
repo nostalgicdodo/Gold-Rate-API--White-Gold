@@ -1,0 +1,26 @@
+{
+  "name": "gold-rate-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@slack/web-api": "^6.2.4",
+    "axios": "^0.21.1",
+    "body-parser": "^1.19.0",
+    "callsites": "^3.1.0",
+    "fastify": "^3.19.2",
+    "fastify-cors": "^6.0.2",
+    "luxon": "^2.0.1",
+    "mongodb": "^4.0.0",
+    "resolve": "^1.20.0"
+  }
+}
