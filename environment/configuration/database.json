@@ -1,0 +1,23 @@
+{
+	"mongodb": {
+		"connectionURI": "mongodb://localhost:27017",
+		"database": "white-gold",
+		"collections": [
+			{
+				"name": "gold-rates",
+				"indices": [
+					{ "fields": [ [ "__mongo__.timestamp", -1 ] ], "options": {} },
+					{ "fields": [ "ask" ], "options": {} },
+					{ "fields": [ "__expireAt__" ], "options": { "expireAfterSeconds": 0 } }
+				]
+			},
+			{
+				"name": "data-pipelines",
+				"indices": [
+					{ "fields": [ [ "inEffectFrom", -1 ] ], "options": {} },
+					{ "fields": [ "name" ], "options": {} }
+				]
+			}
+		]
+	}
+}

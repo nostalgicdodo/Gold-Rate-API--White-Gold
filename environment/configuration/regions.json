@@ -1,0 +1,8 @@
+{
+	"regions": [
+		{ "name": "Karnataka", "code": "ka" },
+		{ "name": "Tamil Nadu", "code": "tn" },
+		{ "name": "Kerala", "code": "kl" },
+		{ "name": "Test", "code": "test" }
+	]
+}

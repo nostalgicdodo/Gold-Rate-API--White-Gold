@@ -1,0 +1,7 @@
+{
+	"slack": {
+		"accessToken": "<from the environment>",
+		"channelName": "z__blackbox",
+		"channelId": "CLA1V7WSF"
+	}
+}

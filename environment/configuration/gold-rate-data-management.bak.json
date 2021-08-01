@@ -1,0 +1,24 @@
+{
+	"apiEndpoint": "<from the environment>",
+	"dataCollectionSchedule": {
+		"current": {
+			"__setOn": 1626719220000,
+			"months": "*",
+			"daysOfMonth": "*",
+			"daysOfWeek": [ "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday" ],
+			"hours": [ 9, 10, 11, 12, 13, 14, 15, 16, 17, 18 ],
+			"minutes": "*",
+			"seconds": "*"
+		},
+		"past": [ { } ]
+	},
+	"reportSampling": {
+		"current": {
+			"__setOn": 1626719220000,
+			"hours": "9-18",
+			"minutes": "*/15",
+			"seconds": "1"
+		},
+		"past": [ { } ]
+	}
+}
