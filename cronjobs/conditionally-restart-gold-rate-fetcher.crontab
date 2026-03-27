@@ -1,0 +1,5 @@
+
+JOB_NAME="restart gold rate fetcher process"
+PROJECT_DIR=/var/www/gold-rate-api
+* * * * * [ $(find "$PROJECT_DIR/environment/logs/lastFetchedGoldRate.json" -mmin +1) ] && [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" && /home/lozarus/.local/share/pnpm/pm2 reload 0
+# ^ There is a file (lastFetchedGoldRate.json), that is updated every few seconds, when a new gold rate value is returned from the third-party API. If the file has not been updated for over a minute, then we assume that something has gone wrong, and we restart the nodeJS process.
