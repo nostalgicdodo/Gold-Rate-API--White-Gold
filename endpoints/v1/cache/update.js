@@ -1,8 +1,8 @@
 
 /*
  |
- | Returns the application status
- | Endpoint: /cache/update/:key
+ | Cache
+ | NOTE: This is not used.
  |
  */
 module.exports = routes;

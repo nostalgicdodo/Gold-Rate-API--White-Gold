@@ -20,8 +20,7 @@ let DataPipeline = require( `${ rootDir }/lib/models/data-pipeline.js` );
 
 /*
  |
- | Returns the application status
- | Endpoint: /gold-rates/current
+ | Returns the current gold rate
  |
  */
 module.exports = routes;

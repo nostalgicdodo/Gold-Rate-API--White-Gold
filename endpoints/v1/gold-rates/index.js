@@ -24,7 +24,7 @@ let DataPipeline = require( `${ rootDir }/lib/models/data-pipeline.js` );
 
 /*
  |
- | Returns the application status
+ | Returns the gold rates for the days
  | Endpoint: /gold-rates
  |
  */
